@@ -33,6 +33,9 @@
   ],
   "author": "Alec Whitten",
   "license": "MIT",
+  "bin" :{
+    "execute" : "app.js"
+  },
   "bugs": {
     "url": "https://github.com/bottega-code-school/js-builder/issues"
   },
