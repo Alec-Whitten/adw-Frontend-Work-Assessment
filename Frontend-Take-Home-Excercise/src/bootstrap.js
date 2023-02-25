@@ -13,11 +13,11 @@ import "./style/form.css";
 
 function main() {
   ReactDOM.render(
-    <Provider store={createStoreWithMiddleware(reducers)}>
+    //<Provider store={createStoreWithMiddleware(reducers)}>
       <BrowserRouter>
         <App />
-      </BrowserRouter>
-    </Provider>,
+      </BrowserRouter>,
+    //</Provider>,
     document.querySelector(".app-wrapper")
   );
 }
