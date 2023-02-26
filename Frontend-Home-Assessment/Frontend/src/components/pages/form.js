@@ -33,7 +33,8 @@ export default function() {
     for(var i=0; i < stateData.length; i++){
         state.push(Object.values(stateData[i]))
         state[i] = String(state[i]).replace(/([A-Z])/g, ' $1').trim()
-        state[i] = String(state[i]).replace(/ /g, "")
+        //Version 1.0.1 Fix: Fixed code to display state properly.
+        state[a] = String(state[a]).slice(0, String(state[a]).length-2) + String(state[a]).slice(String(state[a]).length-1)
     }
 
     //Handles the submit so information gets back to API correctly.
